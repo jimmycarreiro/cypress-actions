@@ -9,7 +9,7 @@ cypress.run({
 })
 .then((results) => {
   const args = {
-    target: 'token',
+    target: TOKEN,
   }
   tesults.results(results, args);
 })
