@@ -1,7 +1,8 @@
 const cypress = require('cypress')
 const tesults = require('cypress-tesults-reporter');
 
-  // specs to run here
+cypress.run({
+  browser: 'electron'
 })
 .then((results) => {
   const args = {
